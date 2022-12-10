@@ -1,0 +1,199 @@
+@media(min-width:1200px) {
+    .logo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 5px 40px;
+        border-left: 1px solid var(--main-color);
+        border-right: 1px solid var(--main-color);
+    }
+    #skills .sl_lw {
+        width: 550px !important;
+        float: right;
+    }
+    #skills .sl_rw {
+        width: 550px !important;
+        float: left;
+        padding-right: 0;
+    }
+    #contact .ct_ls {
+        width: 100%;
+        float: right;
+        height: 100%;
+    }
+    #contact .ct_rs {
+        width: 100%;
+        float: left;
+        padding-right: 0;
+    }
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+    .logo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 4px 30px;
+        border-left: 1px solid var(--main-color);
+        border-right: 1px solid var(--main-color);
+    }
+    .logo img {
+        width: 120px;
+    }
+    #zakksh_nav ul li a {
+        font-size: 13px;
+        padding: 23px 15px;
+        display: block;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .logo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 6px 10px;
+        border-left: 1px solid var(--main-color);
+        border-right: 1px solid var(--main-color);
+    }
+    .logo img {
+        width: 100px;
+    }
+    #zakksh_nav ul li a {
+        padding: 20px 8px;
+        font-size: 13px;
+        display: block;
+    }
+    .headings p {
+        padding: 0 50px;
+    }
+    .about_right {
+        padding-left: 0px;
+    }
+    .about_left {
+        padding-right: 0;
+    }
+    .about_right .about_col h3 i {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    .about_left .about_col h3 i {
+        margin-right: 8px;
+        margin-left: 0;
+    }
+    .work_menu li {
+        font-size: 13px !important;
+        margin: 0 5px !important;
+        width: 100px !important;
+    }
+    #skills .sl_left {
+        padding: 15px !important;
+    }
+}
+
+@media(max-width:767px) {
+    .logo {
+        margin: 10px 0;
+    }
+    .hide_ico {
+        display: none;
+    }
+    h1 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 23px;
+        font-weight: 400;
+    }
+    p {
+        letter-spacing: 1px;
+        line-height: 20px;
+    }
+    /* Menu part responsive css */
+    #custom_nav {
+        margin: 0;
+        padding: 0;
+    }
+    .logo {
+        margin: 10px auto 10px 10px !important;
+    }
+    .hide_ico {
+        display: none;
+    }
+    #zakksh_nav ul li a {
+        background: var(--rgba-color);
+        padding: 5px 20px;
+    }
+    #zakksh_nav ul .active a,
+    #zakksh_nav ul li:hover a {
+        color: var(--main-color);
+    }
+    /* Banner part responsive css */
+    .banner_items {
+        height: 450px;
+    }
+    .banner_text h1 {
+        padding-bottom: 10px;
+    }
+    .banner_text a {
+        height: 30px;
+        width: 130px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 30px;
+        margin-top: 15px;
+    }
+    /* About part responsive css */
+    .headings p {
+        padding: 0;
+    }
+    .about_col h3 {
+        margin-bottom: 15px;
+    }
+    .about_col {
+        margin-top: 35px;
+    }
+    .about_right {
+        padding-left: 15px;
+    }
+    .about_left i {
+        margin-right: 0;
+    }
+    .about_left {
+        padding-right: 15px;
+    }
+    .about_right i {
+        margin-left: 0;
+    }
+    /* Work part responsive css */
+    .work_menu ul li {
+        margin-bottom: 5px;
+    }
+    /* Work history part responsive css */
+    /* Services part responsive css */
+    /* Skills part responsive css */
+    #skills .sl_left {
+        padding: 15px !important;
+        max-height: 450px !important;
+    }
+    #skills .sl_left h2 {
+        font-size: 26px;
+        margin: 20px 0;
+    }
+    /* Team part responsive css */
+    .team_member_info p {
+        padding: 0;
+    }
+    /* Price part responsive css */
+    /* Blog part responsive css */
+    /* Contact part responsive css */
+    .footer_right,
+    .footer_mid,
+    .footer_left {
+        margin: 40px 0 10px;
+    }
+}
